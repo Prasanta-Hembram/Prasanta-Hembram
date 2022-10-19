@@ -23,7 +23,7 @@ jobs:
       uses: Prasanta-Hembram/user-statistician@main
       with:
         image-file: images/userstats.svg
-        locale: hi
+        locale: sat
         colors: dark
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
